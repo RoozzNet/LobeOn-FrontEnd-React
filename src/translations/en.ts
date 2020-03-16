@@ -97,18 +97,18 @@ export const en = {
     'page.body.wallets.table.pending': 'Pending',
     'page.body.wallets.tabs.deposit.fiat.admin': ' To initiate a fiat withdrawal, please contact administrator!',
 
-    'page.body.wallets.tabs.withdraw': 'Withdraw',
-    'page.body.wallets.tabs.withdraw.content.amount': 'Withdrawal Amount',
+    'page.body.wallets.tabs.withdraw': 'Send',
+    'page.body.wallets.tabs.withdraw.content.amount': 'Send Amount',
     'page.body.wallets.tabs.withdraw.content.code2fa': '2FA code',
     'page.body.wallets.tabs.withdraw.content.fee': 'Fee',
-    'page.body.wallets.tabs.withdraw.content.total': 'Total Withdrawal Amount',
+    'page.body.wallets.tabs.withdraw.content.total': 'Total Sended Amount',
     'page.body.wallets.tabs.withdraw.content.button': 'WITHDRAW',
 
     'page.body.wallets.tabs.withdraw.modal.confirmation': 'Confirmation',
     'page.body.wallets.tabs.withdraw.modal.message1': 'You will receive ',
     'page.body.wallets.tabs.withdraw.modal.message2': ' on address',
     'page.body.wallets.tabs.withdraw.modal.button.cancel': 'Cancel',
-    'page.body.wallets.tabs.withdraw.modal.button.withdraw': 'Withdraw',
+    'page.body.wallets.tabs.withdraw.modal.button.withdraw': 'Send',
 
     'page.body.wallets.tabs.withdraw.content.enable2fa': 'To withdraw you have to enable 2FA',
     'page.body.wallets.tabs.withdraw.content.enable2faButton': 'Enable 2FA',
@@ -117,8 +117,8 @@ export const en = {
     'success.beneficiaries.activated': 'Beficiaries: successfully activated',
     'success.beneficiaries.deleted': 'Beficiaries: successfully deleted',
 
-    'page.body.wallets.beneficiaries.title': 'Withdraw address',
-    'page.body.wallets.beneficiaries.fiat.title': 'Withdrawal details',
+    'page.body.wallets.beneficiaries.title': 'Send to address',
+    'page.body.wallets.beneficiaries.fiat.title': 'Send details',
     'page.body.wallets.beneficiaries.dropdown.address': 'Address',
     'page.body.wallets.beneficiaries.dropdown.select': 'Select',
 
@@ -192,7 +192,7 @@ export const en = {
     'page.body.history.deposit.content.status.rejected': 'Rejected',
     'page.body.history.deposit.content.status.skipped': 'Skipped',
 
-    'page.body.history.withdraw': 'Withdrawal History',
+    'page.body.history.withdraw': 'Send History',
     'page.body.history.withdraw.header.id': 'ID',
     'page.body.history.withdraw.header.date': 'Date',
     'page.body.history.withdraw.header.currency': 'Currency',
@@ -257,13 +257,13 @@ export const en = {
 
     'page.body.profile.header.account.profile': 'Profile Verification',
     'page.body.profile.header.account.profile.email.title': 'Email verified',
-    'page.body.profile.header.account.profile.email.message': 'Deposit/Withdraw enabled',
+    'page.body.profile.header.account.profile.email.message': 'Receive/Send enabled',
     'page.body.profile.header.account.profile.phone.unverified.title': 'Phone verification',
     'page.body.profile.header.account.profile.phone.title': 'Phone verified',
     'page.body.profile.header.account.profile.phone.message': 'Deposit/Trade enabled',
     'page.body.profile.header.account.profile.identity.unverified.title': 'Identity verification',
     'page.body.profile.header.account.profile.identity.title': 'Identity verified',
-    'page.body.profile.header.account.profile.identity.message': 'Withdraw enabled',
+    'page.body.profile.header.account.profile.identity.message': 'Send enabled',
 
     'page.body.profile.header.referralProgram': 'Referral Link',
     'page.body.profile.content.copyLink': 'Copy',
@@ -404,13 +404,13 @@ export const en = {
     'page.noDataToShow': 'There is no data to show',
 
     'page.modal.withdraw.success': 'Success!',
-    'page.modal.withdraw.success.message.content': 'Your withdrawal request has been received',
+    'page.modal.withdraw.success.message.content': 'You have successfully sent your amount',
     'page.modal.withdraw.success.button': 'OK',
 
     // success messages
     'success.documents.accepted': 'Documents upload was successful',
     'success.identity.accepted': 'Identity upload was successful',
-    'success.withdraw.action': 'Withdrawal request was received',
+    'success.withdraw.action': 'Send request was received',
     'success.otp.enabled': '2FA was enabled',
     'success.otp.disabled': '2FA was disabled',
     'success.password.changed': 'Password was changed',
@@ -586,7 +586,7 @@ export const en = {
     'account.withdraw.invalid_amount': 'Invalid withdraw amount',
     'account.withdraw.create_error': 'Failed to create withdraw',
     'account.withdraw.invalid_otp': 'Invalid otp',
-    'account.withdraw.disabled_api': 'Withdrawal API is disabled',
+    'account.withdraw.disabled_api': 'Send API is disabled',
 
     'market.market.doesnt_exist': 'Market doesn\'t exist',
     'market.order.invalid_state': 'Invalid deposit state',
