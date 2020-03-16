@@ -42,7 +42,7 @@ class Head extends React.Component<any> {
             location,
             mobileWallet,
         } = this.props;
-        const tradingCls = window.location.pathname.includes('/trading') ? 'pg-container-trading' : '';
+        const tradingCls = window.location.pathname.includes('/wallet') ? 'pg-container-trading' : '';
 
         return (
             <React.Fragment>
